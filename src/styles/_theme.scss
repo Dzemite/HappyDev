@@ -1,0 +1,4 @@
+@import "./themes";
+@import "./config";
+
+$theme: map-get($themes, $current_theme);

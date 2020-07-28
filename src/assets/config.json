@@ -1,0 +1,6 @@
+{
+  "$schema": "./config.schema.json",
+  "BECKEND_CONTEXT": "https://develop-oncoalertness.dev.teh-lab.ru",
+  "FIELD_CODE_RESULT": "someField",
+  "TITLE_SVG": "title.svg"
+}

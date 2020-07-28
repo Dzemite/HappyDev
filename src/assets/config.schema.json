@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "http://link.to.gitlab",
+  "title": "TehLab Onco Alertness config schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "BECKEND_CONTEXT": {
+      "type": "string"
+    },
+    "FIELD_CODE_RESULT": {
+      "type": "string"
+    },
+    "TITLE_SVG": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "BECKEND_CONTEXT",
+    "FIELD_CODE_RESULT",
+    "TITLE_SVG"
+  ],
+  "additionalProperties": false
+}
