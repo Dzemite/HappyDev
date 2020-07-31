@@ -6,7 +6,7 @@ $alpha: map-get($theme, alpha);
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: tl-color($alpha, main-bg-color);
+  background-color: #ecf5fd;
 
   .header {
     width: 100%;
@@ -27,7 +27,7 @@ $alpha: map-get($theme, alpha);
 
       .publication {
         font-size: 16px;
-        color: tl-color($alpha, publication-color);
+        color: #848484;
         display: flex;
         flex-direction: column;
         justify-content: center;
