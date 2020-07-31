@@ -1,4 +1,3 @@
-import { DefaultDatepickerAdatapter } from '@teh-lab/angular-uikit/datepicker';
 import * as moment from 'moment';
 import { Injectable } from "@angular/core";
 

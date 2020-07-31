@@ -9,7 +9,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
 import { DateAdapter } from './classes/date-adapter';
-import { DATEPICKER_ADATPTER } from '@teh-lab/angular-uikit/datepicker';
 
 import { initApp } from './actions/init-app.actions';
 import { reducers, metaReducers, State } from './reducers';

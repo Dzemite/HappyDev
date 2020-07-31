@@ -1,12 +1,3 @@
-@import "@teh-lab/angular-uikit/fonts/icons.css";
-@import "@teh-lab/angular-uikit/fonts/clear-sans.css";
-@import "@teh-lab/angular-uikit/theming/_palette.scss";
-@import "@teh-lab/angular-uikit/theming/_fonts.scss";
-@import "./styles/theme";
-
-@include tl-palette($theme);
-@include tl-fonts();
-
 html,
 body {
   height: 100%;
