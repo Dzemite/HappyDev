@@ -8,8 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
-import { DateAdapter } from './classes/date-adapter';
-
 import { initApp } from './actions/init-app.actions';
 import { reducers, metaReducers, State } from './reducers';
 
@@ -48,10 +46,6 @@ import { ConfigService } from './services/config.service';
   providers: [
     ConfigService,
     { provide: LOCALE_ID, useValue: 'ru-RU' },
-    {
-      provide: DATEPICKER_ADATPTER,
-      useClass: DateAdapter
-    }
   ],
   bootstrap: [AppComponent]
 })
